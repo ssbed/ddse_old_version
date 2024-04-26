@@ -1,14 +1,8 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
 import plotly.express as px
 import plotly.io as pio
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import os
-#import fitz
-#import matplotlib.pyplot as plt
-import re
 
 title_image = "./title.png"
 st.image(title_image)
